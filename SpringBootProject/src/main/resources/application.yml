@@ -1,0 +1,16 @@
+server:
+  port: 8082
+  
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/      
+      suffix: .jsp
+      
+profiles: 
+  username: mary
+  address: taiwan
+  phone: 02-2301-6647
+  
+name: julia
+age: 25
